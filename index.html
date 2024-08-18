@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This website is a clone of zerodha" />
+    <title>Zerodha - Online stock trading</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        width: 100%;
+        line-height: 1.7;
+        color: #424242;
+      }
+
+      .nav-part {
+        box-shadow: 2px 1px 2px #eee;
+      }
+
+      .main {
+        margin: 25px 500px 100px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+      }
+      .navbar span {
+        padding: 20px;
+        font-size: 1.2rem;
+        font-family: serif;
+        color: rgb(101, 96, 96);
+        text-align: right;
+      }
+
+      span:hover {
+        color: #387ed1;
+        cursor: pointer;
+      }
+
+      .body-part {
+        width: 1100px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .landing-img {
+        margin-bottom: 60px;
+        max-height: 45vh;
+        width: 100%;
+      }
+      .body-part .main-head {
+        line-height: 1.25;
+        font-weight: 500;
+        font-size: 2.75rem;
+      }
+
+      .body-part h5 {
+        margin-top: 10px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        font-weight: 400;
+      }
+
+      .btn {
+        margin-top: 25px;
+        cursor: pointer;
+        border: 1px solid rgba(0, 0, 0, 0) !important;
+        border-radius: 3px;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        font-weight: 500;
+        text-decoration: none;
+        white-space: nowrap;
+        display: inline-block;
+        padding: 10px 30px;
+        background-color: #387ed1;
+        color: #fff !important;
+      }
+
+      .btn:hover {
+        background-color: #222;
+        color: #fff !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-part">
+      <div class="main">
+        <img width="150" src="./images/logo.svg" alt="Zerodha" />
+        <div class="navbar">
+          <span>Signup</span>
+          <span>About</span>
+          <span>Product</span>
+          <span>Pricing</span>
+          <span>Support</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-part">
+      <img
+        class="landing-img"
+        height
+        src="./images/landing.png"
+        alt="This is a landing page"
+      />
+
+      <h1 class="main-head">Invest in everything</h1>
+
+      <h5>
+        Online platform to invest in stocks, derivatives, mutual funds, ETFs,
+        bonds, and more.
+      </h5>
+
+      <button class="btn">Sign up now</button>
+    </div>
+  </body>
+</html>
